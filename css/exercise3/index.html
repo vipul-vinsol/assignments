@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Vinsol Logo" />
+                <div class="details">
+                    <p>Email us at: <a href="#">sales@vinsol.com</a> Skype: <a href="#">Vinsol</a></p>
+                </div>
+        </header>
+        <section class="form-section">
+            <p>Please fill the form below</p>
+            <section class="form-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" />
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <label class="sex"><input type="radio" name="sex" /> Male</label>
+                        <label class="sex"><input type="radio" name="sex" /> Female</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <select name="date">
+                            <option value="" disabled selected>DD</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select name="month">
+                            <option value="" disabled selected>MM</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select name="year">
+                            <option value="" disabled selected>YY</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="" cols="32" rows="10"></textarea>
+                    </div>
+                </form>
+                <button class="submit">Submit Details</button>
+            </section>
+        </section>
+    </div>
+</body>
+
+</html>
