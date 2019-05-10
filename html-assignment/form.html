@@ -27,31 +27,31 @@
               <tbody>
                 <tr>
                   <td colspan="3">
-                    <label> Your name*:</label>
+                    <label for="username"> Your name*:</label>
                   </td>
-                  <td><input type="text" /></td>
+                  <td><input type="text" name="username" /></td>
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
-                  <td colspan="3"><label> E-mail*:</label></td>
-                  <td><input type="email" /></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <label> Phone number:</label>
-                  </td>
-                  <td><input type="text" /></td>
+                  <td colspan="3"><label for="email"> E-mail*:</label></td>
+                  <td><input type="email" name="email" /></td>
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
                   <td colspan="3">
-                    <label> Website*:</label>
+                    <label for="contact-number"> Phone number:</label>
                   </td>
-                  <td><input type="text" size="30" value="http://" /></td>
+                  <td><input type="text" name="contact-number" /></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <label for="website-url"> Website*:</label>
+                  </td>
+                  <td><input type="text" size="30" value="http://" name="url" /></td>
                   <td></td>
                   <td></td>
                 </tr>
@@ -59,26 +59,26 @@
             </table>
             <br /><br />
             <div>
-              <label>Comments*:</label><br />
-              <textarea rows="10" cols="50"></textarea>
+              <label for="comment-area">Comments*:</label><br />
+              <textarea rows="10" cols="50" name="comments"></textarea>
               <br />
               <br />
             </div>
             <div>
-              <label><b>Text field</b></label><br />
-              <label>Your name:</label><input type="text" />
+              <b>Text field</b><br />
+              <label for="username-2">Your name:</label><input type="text" name="username-2" />
               <br />
               <br />
             </div>
             <div>
-              <label><b>Password field</b></label><br />
-              <label>Password:</label><input type="password" />
+              <b>Password field</b><br />
+              <label for="password">Password:</label><input type="password" name="pasword" />
               <br />
               <br />
             </div>
             <div>
-              <label><b>Radio buttons</b></label><br />
-              <label>Do you like pizza?</label><br />
+              <b>Radio buttons</b><br />
+              <label for="pizza-choice">Do you like pizza?</label><br />
               <input type="radio" name="dulp" /> Yes <br />
               <input type="radio" name="dulp" /> No <br />
               <input type="radio" name="dulp" /> Maybe <br />
@@ -87,53 +87,53 @@
               <br />
             </div>
             <div>
-              <label><b>Check Box</b></label><br />
-              <input type="checkbox">
-              <label>Check this box if you like our service</label>
+              <b>Check Box</b><br />
+              <input type="checkbox" name="like-our-service" />
+              <label for="like-our-service-checkbox">Check this box if you like our service</label>
               <br />
               <br />
             </div>
             <div>
-              <label><b>Text area</b></label><br />
-              <textarea rows="5" cols="60"></textarea>
+              <b>Text area</b><br />
+              <textarea rows="5" cols="60" name="textarea"></textarea>
               <br />
               <br />
             </div>
             <div>
-              <label><b>I Like</b></label><br />
-              <select multiple>
-                <option>olives</option>
-                <option>mushrooms</option>
-                <option>onions</option>
-                <option>tomatoes</option>
-                <option>green peppers</option>
+              <b>I Like</b><br />
+              <select name="user-likes" multiple>
+                <option value="olives">olives</option>
+                <option value="mashrooms">mushrooms</option>
+                <option values="onions">onions</option>
+                <option values="tomatoes">tomatoes</option>
+                <option value="green-peppers">green peppers</option>
               </select>
               <br />
               <br />
               <br />
             </div>
             <div>
-              <label><b>Menu</b></label><br />
-              your favourite color <br />
-              <select>
-                <option>red</option>
-                <option>yellow</option>
-                <option>blue</option>
-                <option>orange</option>
-                <option>green</option>
+              <b>Menu</b><br />
+              <label for="fav-color">your favourite color</label><br />
+              <select name="fav-color">
+                <option value="red">red</option>
+                <option value="yellow">yellow</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+                <option value="greeen">green</option>
               </select>
               <br />
               <br />
             </div>
             <div>
-              <label><b>Attach file</b></label><br />
-              <input type="text" />
-              <input type="file" />
+              <b>Attach file</b><br />
+              <input type="text" name="uploaded-filename" />
+              <input type="file" name="uploaded-file"/>
               <br />
               <br />
             </div>
             <div>
-              <label><b>Buttons</b></label><br />
+              <b>Buttons</b><br />
               <button>Submit</button>
               <button>Reset</button>
               <br />
