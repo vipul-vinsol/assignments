@@ -1,0 +1,29 @@
+[master 69564c1] <message>
+ 2 files changed, 6 insertions(+)
+ create mode 100644 assignment-git/output1.txt
+diff --git a/assignment-git/a.txt b/assignment-git/a.txt
+index 3d80f31..e86f30a 100644
+--- a/assignment-git/a.txt
++++ b/assignment-git/a.txt
+@@ -1 +1 @@
+-this is a.txt
++this is new a.txt
+diff --git a/assignment-git/b.txt b/assignment-git/b.txt
+index 0718ba5..f43114d 100644
+--- a/assignment-git/b.txt
++++ b/assignment-git/b.txt
+@@ -1 +1,2 @@
+ this is b.txt
++this is added to b.txt
+diff --git a/assignment-git/output1.txt b/assignment-git/output1.txt
+index e69de29..d872728 100644
+--- a/assignment-git/output1.txt
++++ b/assignment-git/output1.txt
+@@ -0,0 +1,3 @@
++[master 69564c1] <message>
++ 2 files changed, 6 insertions(+)
++ create mode 100644 assignment-git/output1.txt
+Unstaged changes after reset:
+M	assignment-git/a.txt
+M	assignment-git/b.txt
+M	assignment-git/output1.txt
