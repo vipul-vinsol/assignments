@@ -27,3 +27,7 @@ Unstaged changes after reset:
 M	assignment-git/a.txt
 M	assignment-git/b.txt
 M	assignment-git/output1.txt
+[master f8306a6] <messsage>
+ 3 files changed, 31 insertions(+), 2 deletions(-)
+Unstaged changes after reset:
+M	assignment-git/output1.txt
